@@ -1,12 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-import WeatherCheck from "./components/WeatherCheck";
+import WeatherCard from "./components/WeatherCard";
+// import InputText from "./components/InputText";
 
 function App() {
   return (
     <div className="App">
       <div className="m-10">
-        <WeatherCheck />
+        <h2>Weather News</h2>
+        {/* <InputText /> */}
+        <WeatherCard />
       </div>
     </div>
   );
